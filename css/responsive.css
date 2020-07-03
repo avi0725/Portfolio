@@ -1,0 +1,83 @@
+/* if the viewport is equal to 340px or less than that */ 
+@media only screen and (max-width: 340px){
+    .header_area .main-menu .navbar,
+    .header_area .main-menu .navbar .navbar-brand,
+    .site-main .services-area
+    {
+        padding: 2%;
+        margin: 0%;
+    }
+
+    .site-main .site-banner .site-title h1{
+        font-size: 41px;
+    }
+    .site-main .site-banner .site-title {
+        padding: 0px;
+        margin: 0px;
+    }
+    .site-main > .services-area .services{
+        width: 13rem;
+    }
+    .education-title{
+        margin-left: 0;
+        letter-spacing: 5px;
+        font-size: 31px;
+    }
+    .edication-text{
+        margin-left: 0;
+    }
+    .site-main .site-banner .banner-image >img{
+        margin-left: 0px;
+        width: 10%;
+    }
+}
+
+
+/* if the viewport is equal to 340px or less than that */ 
+@media only screen and (max-width: 792px){
+    .site-main .about-area .about-title h2 > span{
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+
+    .education-title{
+        font-size: 31px;
+        margin-left: 0;
+        letter-spacing: 5px;
+    }
+
+    .site-main .site-banner .banner-image >img{
+        width: 20%;
+        margin-left: 0px;
+    }
+    .edication-text{
+        margin-left: 0;
+        padding: 0;
+    }
+    .site-main .about-area .about-title p{
+        padding: 5%;
+    }
+
+ 
+}
+
+
+
+/* if the viewport is equal to 1910px or less than that */ 
+@media only screen and (max-width: 1910px){
+    .header_area .main-menu .navbar{
+        padding: 1rem;
+    }
+
+    .container{
+        max-width: 90%;
+    }
+
+    .site-main .brand-area,
+    .site-main .services-area .services-title,
+    .site-main .about-area{
+        padding: 3% 4%;
+    }
+
+
+}
