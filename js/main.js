@@ -1,7 +1,12 @@
 $(document).ready(function () {
 
 
- 
+    var typed = new Typed('.type', {
+        strings: ["Software Developer","Enthusiastic","Motivated"],
+        typeSpeed: 50,
+        backSpeed: 45,
+        loop: true
+      });
 
 
     // Owl-carousel

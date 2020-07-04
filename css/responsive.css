@@ -23,8 +23,9 @@
         letter-spacing: 5px;
         font-size: 31px;
     }
-    .edication-text{
-        margin-left: 0;
+    .education-text{
+        margin-left: 0px;
+        padding-left: 0px;
     }
     .site-main .site-banner .banner-image >img{
         margin-left: 0px;
@@ -36,29 +37,42 @@
 /* if the viewport is equal to 340px or less than that */ 
 @media only screen and (max-width: 792px){
     .site-main .about-area .about-title h2 > span{
-        font-size: 31px;
+        font-size: 41px;
         letter-spacing: 10px;
     }
-
-    .education-title{
-        font-size: 31px;
+    .education{
         margin-left: 0;
-        letter-spacing: 5px;
     }
-
+    .education-title{
+        font:normal bold 50px/72px var(--roboto);
+        margin-left: 0;
+        letter-spacing: 4px;
+        padding-left: 0px;
+    }
+    .education-text{
+        margin-left: 0px;
+        
+    }
     .site-main .site-banner .banner-image >img{
         width: 20%;
         margin-left: 0px;
     }
-    .edication-text{
-        margin-left: 0;
-        padding: 0;
-    }
+
     .site-main .about-area .about-title p{
         padding: 5%;
     }
-
- 
+    .site-main .container{
+        padding: 0px;
+        margin: 0px;
+    }
+    .brand-area{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .brand-area .container-fuild{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
 }
 
 

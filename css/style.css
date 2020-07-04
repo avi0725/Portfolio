@@ -129,7 +129,7 @@
 
 .education-title{
     display: block;
-    font: normal bold 49px/ 60px var(--roboto);
+    font:normal bold 50px/72px var(--roboto);
     letter-spacing: 21px;
     margin: 0 4rem;
 }
