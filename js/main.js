@@ -2,7 +2,7 @@ $(document).ready(function () {
 
 
     var typed = new Typed('.type', {
-        strings: ["Software Developer","Enthusiastic","Motivated"],
+        strings: ["Software Developer","Tech Enthusiast"],
         typeSpeed: 50,
         backSpeed: 45,
         loop: true
